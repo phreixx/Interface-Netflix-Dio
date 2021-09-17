@@ -15,7 +15,7 @@
 /*Elementos Base*/
 body{
     background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
     color: white;
 }
 
@@ -43,6 +43,7 @@ header nav a{
     margin-right: 10px;
     align-items: center;
     
+    
    
 }
 
@@ -51,9 +52,21 @@ header nav a:hover{
 }
 
 /*filme principal*/
+
+main .container{
+    margin-left: 10px;
+}
+
+.film-principal .container{
+    width: 70%;
+    
+    
+}
+
 .film-principal{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/office-capa3.jpg');
+    background-position: center;
     height:400px;
     background-size:cover;
 
@@ -64,11 +77,12 @@ header nav a:hover{
     
 }
 
-.film-principal .descricao{
+.film-principal .descricao{ /*taf semantica*/
     margin-top: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
-    margin-left: 10px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
+    
     margin-right: 30px;
     text-align: justify;
 
@@ -77,7 +91,7 @@ header nav a:hover{
     margin-top: 15%;
     font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
-    margin-left: 10px;
+    color: white; text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .botao {
@@ -91,7 +105,7 @@ header nav a:hover{
     font-size: 12px;
     cursor: pointer;
     transition: .3s ease all;
-    margin-left: 10px;
+    
     border-radius: 10px;
 }
 .botao:hover{
@@ -101,5 +115,15 @@ header nav a:hover{
 .botao i{
     margin-right: 8px;
 }
-
+.box-film{
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    }
+    .carrosel-filmes{
+        margin-top: 5px;
+    }
 
