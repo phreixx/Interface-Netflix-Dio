@@ -55,6 +55,7 @@ header nav a:hover{
 
 main .container{
     margin-left: 10px;
+    
 }
 
 .film-principal .container{
@@ -74,6 +75,7 @@ main .container{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-bottom: 10px;
     
 }
 
@@ -126,4 +128,11 @@ main .container{
     .carrosel-filmes{
         margin-top: 5px;
     }
+    .header-title {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+  
 
