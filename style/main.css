@@ -134,5 +134,50 @@ main .container{
         font-size: 20px;
         margin-left: 10px;
     }
+
+    .member-footer{
+        max-width: 980px;
+        margin: 20px auto 0;
+        padding: 0 4%;
+        color: grey;
+        
+
+    }
+    .footer{
+        font-size: 13px;
+        display: flex;
+        align-content: normal;
+        justify-content: normal;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        flex-direction: row;
+        flex-wrap: wrap;
+        -webkit-box-align: start;
+        align-items: center;
+        margin: 0 0 14px 0;
+        padding: 0;
+        list-style-type: disc;
+              
+    
+        
+    }
+    
+
+    .links-uteis{
+        flex: 0 0 50%;
+        margin-bottom: 16px;
+        box-sizing: border-box;
+        flex-basis: 25%;
+        
+    }
+    .li{
+        display: list-item;
+        text-align:end;
+    }
+
+    
+
+
+
   
 
